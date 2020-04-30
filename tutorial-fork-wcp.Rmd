@@ -1,0 +1,30 @@
+---
+title: "Tutorial6-fork-wcp"
+author: "cuiping wei"
+date: "30/04/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+#Libraries
+```{r}
+library(tidyverse)
+library(gridExtra)
+```
+
+
+```{r}
+x<-c(1,2,3,4,5,6)
+y<-c(2,3,4,5,6,7)
+list(x,y)
+```
+
+
+```{r}
+plot(x,y)
+```
+
+
